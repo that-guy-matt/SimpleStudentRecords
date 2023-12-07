@@ -142,6 +142,7 @@ Administrator Interface
 				viewStudentDetails();
 				continue;
 			case 4:
+				System.out.println("Thank you for using the Simple Student Records program. Goodbye.");
 				System.exit(1);
 			default:
 				System.out.println("Please enter one of the menu choices.");
