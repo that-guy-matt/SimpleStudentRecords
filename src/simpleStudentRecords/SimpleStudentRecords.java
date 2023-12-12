@@ -70,9 +70,7 @@ class StudentManagement {
 	
 	// add new student
 	public static void addStudent(String name, int age, double grade) {
-		int id = studentId;
-		studentId++;
-		Student newStudent = new Student(name, id, age, grade);
+		Student newStudent = new Student(name, studentId++, age, grade);
 		students.add(newStudent);
 		totalStudents++;
 		System.out.println("\nStudent added successfully.\n");
